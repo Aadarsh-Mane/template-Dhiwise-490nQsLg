@@ -1,0 +1,38 @@
+name: addy01_
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  cached_network_image: ^3.2.1
+  flutter_svg: ^1.1.6
+  intl: ^0.18.0
+  expandable_text: ^2.3.0
+  provider: ^6.0.5
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Urbanist
+      fonts: 
+        - asset: assets/fonts/UrbanistBold.ttf
+          weight: 700
+        - asset: assets/fonts/UrbanistSemiBold.ttf
+          weight: 600
+    - family: Irish Grover
+      fonts: 
+        - asset: assets/fonts/IrishGroverRegular.ttf
+          weight: 400
+    - family: Inter
+      fonts: 
+        - asset: assets/fonts/InterRegular.ttf
+          weight: 400
+        - asset: assets/fonts/InterBold.ttf
+          weight: 700
